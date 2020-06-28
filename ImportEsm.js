@@ -1,7 +1,7 @@
 import React from 'react';
 import Import from './Import';
 
-export default function ImportEsm({module, funcName, children}){ // ...etc
+export default function ImportEsm({module, funcName, children}){
   const [Module, setModule] = React.useState();
 	const [Err, setErr] = React.useState(false);
 	
